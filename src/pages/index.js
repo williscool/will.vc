@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import isAfter from "date-fns/is_after";
+import ReactMarkdown from "react-markdown";
 
 import Layout from "../components/Layout";
 import HeadshotPlaceholder from "../img/headshot-placeholder.svg";
@@ -16,9 +17,10 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
       <section className="header">
         <div className="header-container  container">
           {home.headerImage && <img className="header-image" src={home.headerImage.image} alt={home.headerImage.imageAlt} />}
-          <h3 className="header-tagline">
-            <span className="header-taglinePart">{home.title}</span>
-          </h3>
+          <div className="header-tagline">
+            <ReactMarkdown className="header-title" source={home.title} />
+          </div>
+
         </div>
       </section>
       <section className="upcomingMeetup  section">

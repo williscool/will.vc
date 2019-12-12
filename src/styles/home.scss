@@ -57,7 +57,7 @@
     }
   }
 
-  &-taglinePart {
+  h1 {
     display: inline;
     @include title-link-border();
   }
