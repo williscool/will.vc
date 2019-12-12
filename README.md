@@ -1,10 +1,10 @@
-# Gatsby & Netlify CMS Example
+# Will.vc
 
-An example website built using Gatsby V2 and Netlify CMS. The website is a fake JavaScript meetup site that lists upcoming meetups, information about the meetup group, as well as a list of past meetups.
+A gatsby + netlify-cms website
 
-The purpose of the repository is to provide an idea of how a Gatsby project is structured with Netlify CMS. You can easily deploy your own instance of this application by clicking the button below:
+Shout out to [The robertcoopercode gatsby-netlify-cms starter](https://www.gatsbyjs.org/starters/robertcoopercode/gatsby-netlify-cms/).
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/robertcoopercode/gatsby-netlify-cms)
+Would not be possible without you
 
 ## Local Development
 
@@ -15,7 +15,7 @@ The purpose of the repository is to provide an idea of how a Gatsby project is s
 ### Run the project
 
 ```
-$ git clone git@github.com:robertcoopercode/gatsby-netlify-cms.git
+$ git clone 
 $ cd gatsby-netlify-cms
 $ yarn
 $ yarn develop
@@ -30,8 +30,10 @@ $ yarn serve
 
 ### Setting up the CMS
 
-For details on how to configure the CMS, take a look at the [Netlify CMS Docs](https://www.netlifycms.org/docs/intro).
+For details on how to configure the CMS, take a look at the 
 
 ## Useful Resources
+- https://www.gatsbyjs.org/starters/robertcoopercode/gatsby-netlify-cms/
+- https://github.com/robertcoopercode/gatsby-netlify-cms
 - ["Official" Gatsby and Netlify CMS starter](https://github.com/netlify-templates/gatsby-starter-netlify-cms)
 This starter includes a blog built with Gatsby and Netlify CMS. It was actually used as the starting off point for this repository.
