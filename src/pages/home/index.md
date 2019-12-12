@@ -3,25 +3,32 @@ templateKey: home-page
 headerImage:
   image: /img/fb.jpg
   imageAlt: That boi Will
-title: I do software things and such
+title: |-
+  # Hi, I'm William Harris
+
+  I do software things and such.  More below ⤵️
 upcomingMeetupHeading: About Me
 noUpcomingMeetupText: Details to be announced.
 callToActions:
   firstCTA:
-    heading: Past Meetups
-    linkType: internal
-    linkURL: /meetups
-    subHeading: Look at what topics were presented at past meetups.
-  secondCTA:
-    heading: Volunteer to Present
+    heading: Visit my LinkedIn
     linkType: external
-    linkURL: 'mailto:contact@js-wakanda.org'
-    subHeading: Want to present at an upcoming meetup? Contact us.
+    linkURL: 'https://www.linkedin.com/in/31iqml/'
+    subHeading: >-
+      There's a ton of info about stuff I've worked on there. (which has double
+      meaning because I used to work there)
+  secondCTA:
+    heading: Contact ya boi
+    linkType: external
+    linkURL: 'mailto:wharris@upscalews.com'
+    subHeading: Shoot me an email. Because why not?
 seo:
-  browserTitle: JS Wakanda
+  browserTitle: >-
+    The Personal Website of William Harris Technology Strategy Consultant and
+    Software Engineer Extraordinaire
   description: >-
-    JavaScript meetup group in Wakanda where JavaScript developers get together
-    for presentations and to meet others in the community.
-  title: JavaScript Wakanda
+    The Personal Website of William Harris Technology Strategy Consultant and
+    Software Engineer Extraordinaire
+  title: Will makes computers do cool stuff. More inside
 ---
 
