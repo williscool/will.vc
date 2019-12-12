@@ -2,21 +2,17 @@ import React from "react";
 import "./styles.scss";
 
 export const FooterTemplate = ({ data }) => {
-  const { logoImage, socialLinks } = data;
+  const { logoImage, socialLinks, description, title } = data;
 
   return (
     <nav className="footer">
       <div className="footer-container  container">
         <div className="footer-top">
           <div className="footer-about">
-            <h4 className="footer-aboutTitle">
-              <img
-                className="footer-aboutTitleImg"
-                src={logoImage.image}
-                alt={logoImage.imageAlt}
-              />
-            </h4>
-            <p className="footer-aboutDescription">{logoImage.tagline}</p>
+            <h2 className="footer-aboutTitle">
+              {title}
+            </h2>
+            <p className="footer-aboutDescription">{description}</p>
           </div>
           {socialLinks.length > 0 && (
             <ul className="footer-socialMenu">

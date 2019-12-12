@@ -1,5 +1,7 @@
 ---
 templateKey: footer
+title: will.vc
+description: your friendly remote software engineer + entreprenuer 
 logoImage:
   image: /img/logo.jpg
   imageAlt: JavaScript Wakanda Forever!

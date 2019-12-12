@@ -25,6 +25,8 @@ export const query = graphql`
         node {
           id
           frontmatter {
+            title
+            description
             logoImage {
               image
               imageAlt
