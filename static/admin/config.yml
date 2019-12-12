@@ -55,12 +55,11 @@ collections:
       - {
           label: "Location",
           name: "location",
-          required: true,
+          required: false,
           widget: "object",
           fields:
             [
               { label: "Name", name: "name", widget: "string" },
-              { label: "Google Maps Link", name: "mapsLink", widget: "string" },
               { label: "Latitude", name: "mapsLatitude", widget: "number", valueType: "float" },
               { label: "Longitude", name: "mapsLongitude", widget: "number", valueType: "float" },
             ],
@@ -168,7 +167,6 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Upcoming Meetup Heading", name: "upcomingMeetupHeading", widget: "string" }
           - { label: "No Upcoming Meetup Text", name: "noUpcomingMeetupText", hint: "This text will be displayed when there are no upcoming meetups", required: true, widget: "string" }
-          - { label: "Maps Note", name: "mapsNote", required: true, widget: "string" }
           - {
               label: "Call to Actions",
               name: "callToActions",

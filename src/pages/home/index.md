@@ -6,7 +6,6 @@ headerImage:
 title: I do software things and such
 upcomingMeetupHeading: About Me
 noUpcomingMeetupText: Details to be announced.
-mapsNote: Clicking the pin opens Google Maps in a new tab.
 callToActions:
   firstCTA:
     heading: Past Meetups
