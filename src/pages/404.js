@@ -16,6 +16,8 @@ const NotFoundPage = () => (
 //\\                      //\\
 "" ""                     "" ""
       `}</p>
+
+      <a href='/'> Bring it on home </a>
     </div>
   </Layout>
 );
