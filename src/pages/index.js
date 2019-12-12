@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import isAfter from "date-fns/is_after";
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown from "react-commonmark";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 
@@ -62,7 +62,7 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
       <section className="upcomingMeetup  section">
         <div className="upcomingMeetup-container  container">
           <div className="pastMeetups">
-            <ReactMarkdown className="header-title" source={home.homeMainContent} />
+            <ReactMarkdown className="main-content-header-title" source={home.homeMainContent} />
           </div>
         </div>
       </section>

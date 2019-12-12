@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import isBefore from "date-fns/is_before";
-import ReactMarkdown from "react-markdown";
+import ReactMarkdown from "react-commonmark";
 
 import MeetupTemplate from "./meetup";
 import Layout from "../components/Layout";

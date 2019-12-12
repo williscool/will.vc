@@ -23,10 +23,10 @@
     "parcel-bundler": "^1.9.4",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
+    "react-commonmark": "^3.0.0",
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
     "react-icons": "^3.8.0",
-    "react-markdown": "^4.0.3",
     "uuid": "^3.2.1"
   },
   "keywords": [

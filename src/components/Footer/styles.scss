@@ -36,10 +36,10 @@
   }
 
   &-about {
-    text-align: center;
+    text-align: left;
 
-    @include respond-to("small") {
-      text-align: left;
+    @include respond-to("medium") {
+      text-align: center;
     }
   }
 
@@ -54,10 +54,12 @@
   }
 
   &-linksContainer {
-    margin-left: 2rem;
+    margin-top: 80px;
+    margin-left: auto;
 
-    @include respond-to("small") {
-      margin-left: auto;
+    @include respond-to("medium") {
+      margin-top: 0;
+      margin-left: 6rem;
     }
   }
 

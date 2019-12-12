@@ -2,7 +2,7 @@
 templateKey: footer
 title: will.vc
 description: software engineer + entreprenuer + adviser + consultant + occasional freelancer
-linksTitle: "Links to Random Stuff thats cool"
+linksTitle: "Links to Stuff thats cool"
 logoImage:
   image: /img/logo.jpg
   imageAlt: JavaScript Wakanda Forever!
@@ -14,7 +14,7 @@ footerLinks:
     linkURL: 'https://github.com/williscool/will.vc'
   - image: /img/vulk-logo-marque-light.svg
     imageAlt: People I work with
-    label: vulk.coop - team im on currently
+    label: vulk.coop - team im currently working with
     linkURL: 'http://vulk.coop/'
   - image: /img/elevation-firm.png
     imageAlt: The homie's digtal marketing firm

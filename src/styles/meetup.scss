@@ -17,12 +17,12 @@
   &-title, h2 {
     @include xlarge-font();
     @include title-link-border();
-    margin-bottom: 20px;
+    margin-bottom: 0 8rem 20px 8rem;
     text-align: center;
     align-self: center;
 
     @include respond-to("medium") {
-      margin-bottom: 40px;
+      margin: 0 10rem 40px 10rem;
     }
   }
 
@@ -37,8 +37,11 @@
     margin: 40px 0;
   }
 
-  .header-title {
-    text-align: center;    
+  .main-content-header-title {
+    text-align: center;
+    p {
+      margin-top: 16px;
+    }
   }
 }
 
