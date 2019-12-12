@@ -269,7 +269,7 @@ collections:
             }
           - {
               label: "Social Links",
-              name: "socialLinks",
+              name: "footerLinks",
               widget: "list",
               fields:
                 [

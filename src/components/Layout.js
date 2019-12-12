@@ -27,12 +27,13 @@ export const query = graphql`
           frontmatter {
             title
             description
+            linksTitle
             logoImage {
               image
               imageAlt
               tagline
             }
-            socialLinks {
+            footerLinks {
               image
               imageAlt
               label

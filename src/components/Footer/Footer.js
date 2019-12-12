@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.scss";
 
 export const FooterTemplate = ({ data }) => {
-  const { logoImage, socialLinks, description, title } = data;
+  const { linksTitle, footerLinks, description, title } = data;
 
   return (
     <nav className="footer">
@@ -14,26 +14,31 @@ export const FooterTemplate = ({ data }) => {
             </h2>
             <p className="footer-aboutDescription">{description}</p>
           </div>
-          {socialLinks.length > 0 && (
-            <ul className="footer-socialMenu">
-              {socialLinks.map(socialLink => (
-                <li key={socialLink.linkURL} className="footer-socialMenuItem">
-                  <a
-                    className="footer-socialLink"
-                    href={socialLink.linkURL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <img
-                      className="footer-socialLinkIcon"
-                      src={socialLink.image}
-                      alt={socialLink.imageAlt}
-                    />
-                    {socialLink.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
+          {footerLinks.length > 0 && (
+            <div className="footer-linksContainer">
+              <h2 className="footer-aboutTitle">
+                {linksTitle}
+              </h2>
+              <ul className="footer-socialMenu">
+                {footerLinks.map(footerLink => (
+                  <li key={footerLink.linkURL} className="footer-socialMenuItem">
+                    <a
+                      className="footer-footerLink"
+                      href={footerLink.linkURL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        className="footer-footerLinkIcon"
+                        src={footerLink.image}
+                        alt={footerLink.imageAlt}
+                      />
+                      {footerLink.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
           )}
         </div>
       </div>

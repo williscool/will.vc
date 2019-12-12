@@ -4,6 +4,8 @@ import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import isAfter from "date-fns/is_after";
 import ReactMarkdown from "react-markdown";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+
 
 import Layout from "../components/Layout";
 import CustomLink from "../components/CustomLink";
@@ -16,7 +18,43 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
         <div className="header-container  container">
           {home.headerImage && <img className="header-image" src={home.headerImage.image} alt={home.headerImage.imageAlt} />}
           <div className="header-tagline">
-            <ReactMarkdown className="header-title" source={home.title} />
+            <div>
+              <ReactMarkdown className="header-title" source={home.title} />
+            </div>
+
+            <div class="socialLinks">
+              <span>
+                <a
+                  href="https://www.linkedin.com/in/31iqml/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaLinkedin size={32}/>
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://nomadlist.com/@williscool"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img width={32} height={32}
+                    src="/img/nomadlist-icon.svg"
+                    alt="nomadlist"
+                  />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://github.com/williscool"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaGithub size={32} />
+                </a>
+              </span>
+            </div>
+
           </div>
 
         </div>

@@ -25,7 +25,7 @@ callToActions:
       There's a ton of info about stuff I've worked on there. (which has double
       meaning because I used to work there)
   secondCTA:
-    heading: Contact ya boi
+    heading: Contact me
     linkType: external
     linkURL: 'mailto:wharris@upscalews.com'
     subHeading: Shoot me an email. Because why not?

@@ -1,27 +1,28 @@
 ---
 templateKey: footer
 title: will.vc
-description: your friendly remote software engineer + entreprenuer 
+description: software engineer + entreprenuer + adviser + consultant + occasional freelancer
+linksTitle: "Links to Random Stuff thats cool"
 logoImage:
   image: /img/logo.jpg
   imageAlt: JavaScript Wakanda Forever!
   tagline: Your friendly local web developers
-socialLinks:
-  - image: /img/meetup.svg
-    imageAlt: Join us on meetup.com
-    label: meetup.com
-    linkURL: 'https://www.meetup.com/'
-  - image: /img/twitter.svg
-    imageAlt: Follow us on Twitter
-    label: twitter.com
-    linkURL: 'https://twitter.com/'
-  - image: /img/facebook.svg
-    imageAlt: Join our Facebook group
-    label: facebook.com
-    linkURL: 'https://www.facebook.com/'
+footerLinks:
+  - image: /img/GitHub-Mark-Light-120px-plus.png
+    imageAlt: The source of this site
+    label: will.vc on github
+    linkURL: 'https://github.com/williscool/will.vc'
+  - image: /img/vulk-logo-marque-light.svg
+    imageAlt: People I work with
+    label: vulk.coop - team im on currently
+    linkURL: 'http://vulk.coop/'
+  - image: /img/elevation-firm.png
+    imageAlt: The homie's digtal marketing firm
+    label: elevationfirm - The homie's digtal marketing firm
+    linkURL: 'https://elevationfirm.com/'
   - image: /img/email.svg
-    imageAlt: Contact us by email
-    label: email us
-    linkURL: 'mailto:contact@js-wakanda.org'
+    imageAlt: Contact me via the emails
+    label:  email me
+    linkURL: 'mailto:wharris@upscalews.com'
 ---
 

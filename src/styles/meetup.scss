@@ -2,6 +2,7 @@
 @import "./mixins.scss";
 
 .pastMeetups {
+  
   &-container {
     padding: $section-padding-mobile 20px;
     display: flex;
@@ -34,6 +35,10 @@
 
   &-meetup {
     margin: 40px 0;
+  }
+
+  .header-title {
+    text-align: center;    
   }
 }
 

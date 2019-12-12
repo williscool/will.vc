@@ -53,6 +53,14 @@
     @include medium-font();
   }
 
+  &-linksContainer {
+    margin-left: 2rem;
+
+    @include respond-to("small") {
+      margin-left: auto;
+    }
+  }
+
   &-socialMenu {
     margin: 20px;
 
@@ -65,7 +73,7 @@
     padding: 15px 0;
   }
 
-  &-socialLink {
+  &-footerLink {
     @include medium-font;
     font-weight: 400;
     text-decoration: none;
@@ -74,7 +82,7 @@
     align-items: center;
   }
 
-  &-socialLinkIcon {
+  &-footerLinkIcon {
     width: 40px;
     margin-right: 20px;
   }
