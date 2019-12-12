@@ -7,12 +7,15 @@ title: |-
   # Hi, I'm William Harris
 
   I do software things and such.  More below ⤵️
-homeMainContent: |-
+homeMainContent: >-
   ## About Me
 
-  Tech Strategy Consultant and ex Silicon Valley software engineer. 
 
-  Have shipped web and mobile apps for everything from small clients as a freelancer to top tier Silicon Valley Startups and Giants
+  ### Tech Strategy Consultant and ex Silicon Valley software engineer. 
+
+
+  Have shipped web and mobile apps for everything from small clients as a
+  freelancer to top tier Silicon Valley Startups and Giants
 callToActions:
   firstCTA:
     heading: Visit my LinkedIn
