@@ -13,7 +13,7 @@
     }
   }
 
-  &-title {
+  &-title, h2 {
     @include xlarge-font();
     @include title-link-border();
     margin-bottom: 20px;

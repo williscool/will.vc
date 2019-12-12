@@ -6,12 +6,10 @@ import isAfter from "date-fns/is_after";
 import ReactMarkdown from "react-markdown";
 
 import Layout from "../components/Layout";
-import HeadshotPlaceholder from "../img/headshot-placeholder.svg";
 import CustomLink from "../components/CustomLink";
 import "../styles/home.scss";
 
 export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
-  const presenters = upcomingMeetup && upcomingMeetup.presenters;
   return (
     <>
       <section className="header">
@@ -25,39 +23,9 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
       </section>
       <section className="upcomingMeetup  section">
         <div className="upcomingMeetup-container  container">
-          <h2 className="pastMeetups-title">{home.upcomingMeetupHeading}</h2>
-          {upcomingMeetup ? (
-            <>
-              <p className="upcomingMeetup-detail  upcomingMeetup-detail--date">
-                <span className="upcomingMeetup-detailLabel">Date: </span>
-                {upcomingMeetup.formattedDate}
-              </p>
-              <p className="upcomingMeetup-detail  upcomingMeetup-detail--location">
-                <span className="upcomingMeetup-detailLabel">Location: </span>
-                {upcomingMeetup.location.name}
-              </p>
-              {presenters.length > 0 && (
-                <div className="upcomingMeetup-presenters">
-                  {presenters.map(presenter => (
-                    <div className="upcomingMeetup-presenter" key={presenter.text}>
-                      <img
-                        className="upcomingMeetup-presenterImage"
-                        src={presenter.image ? presenter.image : HeadshotPlaceholder}
-                        alt={presenter.image ? presenter.name : "Default headshot placeholder"}
-                      />
-                      <span className="upcomingMeetup-presenterName">{presenter.name}</span>
-                      <span className="upcomingMeetup-presenterPresentationTitle">
-                        {presenter.presentationTitle}
-                      </span>
-                      <p className="upcomingMeetup-presenterDescription">{presenter.text}</p>
-                    </div>
-                  ))}
-                </div>
-              )}
-            </>
-          ) : (
-            <p className="upcomingMeetup-detail">{home.noUpcomingMeetupText}</p>
-          )}
+          <div className="pastMeetups">
+            <ReactMarkdown className="header-title" source={home.homeMainContent} />
+          </div>
         </div>
       </section>
       <section className="ctaBlock">
@@ -168,8 +136,7 @@ export const pageQuery = graphql`
               image
               imageAlt
             }
-            upcomingMeetupHeading
-            noUpcomingMeetupText
+            homeMainContent
             callToActions {
               firstCTA {
                 heading
