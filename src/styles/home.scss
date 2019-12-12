@@ -56,9 +56,24 @@
       flex-basis: 500px;
     }
 
-    .socialLinks span {
-      margin-right: 16px;
-    }
+    .socialLinks {
+      
+      margin-top: 32px;
+
+      @include respond-to("medium") {
+        margin-top: 0px;
+      }
+
+      span {
+        margin-right: 32px;
+
+        @include respond-to("medium") {
+          margin-right: 16px;
+        }
+      }
+
+    } 
+    
   }
 
   h1 {
