@@ -23,7 +23,7 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
       </section>
       <section className="upcomingMeetup  section">
         <div className="upcomingMeetup-container  container">
-          <h2 className="upcomingMeetup-title">{home.upcomingMeetupHeading}</h2>
+          <h2 className="pastMeetups-title">{home.upcomingMeetupHeading}</h2>
           {upcomingMeetup ? (
             <>
               <p className="upcomingMeetup-detail  upcomingMeetup-detail--date">
