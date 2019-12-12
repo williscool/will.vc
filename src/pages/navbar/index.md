@@ -10,8 +10,5 @@ menuItems:
   - label: blog
     linkType: external
     linkURL: 'https://medium.com/@thatboiwill'
-  - label: past meetups
-    linkType: internal
-    linkURL: /meetups
 ---
 
