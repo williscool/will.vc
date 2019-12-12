@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import isAfter from "date-fns/is_after";
+import ReactMarkdown from "react-markdown";
 
 import Layout from "../components/Layout";
 import HeadshotPlaceholder from "../img/headshot-placeholder.svg";
@@ -18,6 +19,7 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
           {home.headerImage && <img className="header-image" src={home.headerImage.image} alt={home.headerImage.imageAlt} />}
           <h3 className="header-tagline">
             <span className="header-taglinePart">{home.title}</span>
+            <ReactMarkdown className="header-titleSubtext" source={home.titleSubtext} />
           </h3>
         </div>
       </section>
@@ -162,6 +164,7 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            titleSubtext
             headerImage {
               image
               imageAlt
