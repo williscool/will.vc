@@ -46,6 +46,7 @@
     cursor: default;
 
     @include respond-to("small") {
+      margin-left: 1rem;
       flex-basis: 430px;
       text-align: left;
       width: 50%;
@@ -60,15 +61,15 @@
       
       margin-top: 32px;
 
-      @include respond-to("medium") {
+      @include respond-to("small") {
         margin-top: 0px;
       }
 
       span {
-        margin-right: 32px;
+        margin: 0 1rem;
 
-        @include respond-to("medium") {
-          margin-right: 16px;
+        @include respond-to("small") {
+          margin: 0 1rem 0 0 ;
         }
       }
 

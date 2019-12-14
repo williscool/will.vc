@@ -22,7 +22,7 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
               <ReactMarkdown className="header-title" source={home.title} />
             </div>
 
-            <div class="socialLinks">
+            <div className="socialLinks">
               <span>
                 <a
                   href="https://www.linkedin.com/in/31iqml/"
