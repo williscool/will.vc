@@ -61,7 +61,7 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
       </section>
       <section className="upcomingMeetup  section">
         <div className="upcomingMeetup-container  container">
-          <div className="pastMeetups">
+          <div id="home-main" className="pastMeetups">
             <ReactMarkdown className="main-content-header-title" source={home.homeMainContent} />
           </div>
         </div>
