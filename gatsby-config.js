@@ -44,6 +44,7 @@ module.exports = {
       options: {
         trackingId: "UA-450199-43",
         head: true,
+        respectDNT: true,
       },
     },
     "gatsby-plugin-netlify", // make sure to keep it last in the array
