@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby + Netlify CMS Starter",
+    title: "Will Harris website dawg",
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -34,7 +34,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-favicon`,
+      resolve: `gatsby-plugin-favicon`, // https://github.com/Creatiwity/gatsby-plugin-favicon
       options: {
         logo: "./src/img/favicon.png",
       },
