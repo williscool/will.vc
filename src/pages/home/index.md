@@ -6,6 +6,8 @@ headerImage:
 title: |-
   # Hi, I'm William Harris
 
+  ex-Linkedin
+
   I do software things and such.  More below [⤵️](#home-main)
 homeMainContent: |-
   ## About Me
