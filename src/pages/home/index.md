@@ -21,8 +21,8 @@ callToActions:
     linkType: external
     linkURL: 'https://www.linkedin.com/in/31iqml/'
     subHeading: >-
-      There's a ton of background on about stuff I've worked on there. (which
-      has double meaning because I used to work there)
+      There's a ton of stuff I've worked on there. (which has double meaning
+      because I used to work there)
   secondCTA:
     heading: Contact me
     linkType: external
