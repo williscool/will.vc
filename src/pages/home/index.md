@@ -26,7 +26,7 @@ callToActions:
   secondCTA:
     heading: Contact me
     linkType: external
-    linkURL: 'mailto:wharris@upscalews.com'
+    linkURL: 'mailto:me@will.vc'
     subHeading: Shoot me an email. Because why not?
 seo:
   browserTitle: >-
