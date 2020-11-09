@@ -28,6 +28,8 @@ callToActions:
     linkType: external
     linkURL: 'mailto:me@will.vc'
     subHeading: Shoot me an email. Because why not?
+customSeo:
+  keywords: software engineering, tech, startups, silicon valley, web, mobile, application, development,
 seo:
   browserTitle: >-
     The Personal Website of William Harris Technology Strategy Consultant and
@@ -36,6 +38,5 @@ seo:
     The Personal Website of William Harris Technology Strategy Consultant and
     Software Engineer Extraordinaire
   title: Will makes computers do cool stuff. More inside
-  keywords: software engineering,  
 ---
 

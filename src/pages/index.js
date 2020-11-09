@@ -100,7 +100,8 @@ class HomePage extends React.Component {
     } = this.props;
     const { frontmatter: home } = data.homePageData.edges[0].node;
     const {
-      seo: { title: seoTitle, description: seoDescription, keywords: seoKeywords, browserTitle },
+      seo: { title: seoTitle, description: seoDescription, browserTitle },
+      customSeo: {keywords: seoKeywords },
     } = home;
     let upcomingMeetup = null;
     // Find the next meetup that is closest to today
@@ -190,11 +191,13 @@ export const pageQuery = graphql`
                 linkURL
               }
             }
+            customSeo {
+              keywords
+            }
             seo {
               browserTitle
               title
               description
-              keywords
             }
           }
         }
