@@ -36,5 +36,6 @@ seo:
     The Personal Website of William Harris Technology Strategy Consultant and
     Software Engineer Extraordinaire
   title: Will makes computers do cool stuff. More inside
+  keywords: software engineering,  
 ---
 
