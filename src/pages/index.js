@@ -100,7 +100,7 @@ class HomePage extends React.Component {
     } = this.props;
     const { frontmatter: home } = data.homePageData.edges[0].node;
     const {
-      seo: { title: seoTitle, description: seoDescription, browserTitle },
+      seo: { title: seoTitle, description: seoDescription, keywords: seoKeywords, browserTitle },
     } = home;
     let upcomingMeetup = null;
     // Find the next meetup that is closest to today
@@ -118,6 +118,7 @@ class HomePage extends React.Component {
         <Helmet>
           <meta name="title" content={seoTitle} />
           <meta name="description" content={seoDescription} />
+          <meta name="keywords" content={seoKeywords} />
           <title>{browserTitle}</title>
         </Helmet>
         <HomePageTemplate home={home} upcomingMeetup={upcomingMeetup} />
@@ -193,6 +194,7 @@ export const pageQuery = graphql`
               browserTitle
               title
               description
+              keywords
             }
           }
         }
