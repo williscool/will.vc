@@ -22,7 +22,11 @@ footerLinks:
     linkURL: 'https://elevationfirm.com/'
   - image: /img/email.svg
     imageAlt: Contact me via the emails
-    label:  email me
+    label: email me
     linkURL: 'mailto:wharris@upscalews.com'
+  - image: /img/twitter.svg
+    imageAlt: boujeehacker on twitter
+    label: boujeehacker on twitter
+    linkURL: 'https://twitter.com/boujeehacker'
 ---
 
