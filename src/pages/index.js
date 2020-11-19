@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Helmet from "react-helmet";
 import isAfter from "date-fns/is_after";
 import ReactMarkdown from "react-commonmark";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 
 import Layout from "../components/Layout";
@@ -27,7 +27,7 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
                 <a
                   href="https://www.linkedin.com/in/31iqml/"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                 >
                   <FaLinkedin size={32}/>
                 </a>
@@ -36,7 +36,7 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
                 <a
                   href="https://nomadlist.com/@williscool"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                 >
                   <img width={32} height={32}
                     src="/img/nomadlist-icon.svg"
@@ -48,9 +48,21 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
                 <a
                   href="https://github.com/williscool"
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener"
                 >
                   <FaGithub size={32} />
+                </a>
+              </span>
+              <span>
+                <a
+                  href="https://twitter.com/boujeehacker"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img width={32} height={32}
+                    src="/img/twitter.svg"
+                    alt="twitter"
+                  />
                 </a>
               </span>
             </div>
