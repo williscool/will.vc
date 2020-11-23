@@ -35,8 +35,8 @@ seo:
     The Personal Website of William Harris Software Engineer Advisor
     Extraordinaire
   description: >-
-    The Personal Website of William Harris Technology Strategy Consultant and
-    Software Engineer Extraordinaire
+    The Personal Website of William Harris Software Engineer and Advisor
+    Extraordinaire
   keywords: >-
     software engineering, tech, startups, silicon valley, web, mobile,
     application, development, investor, 
