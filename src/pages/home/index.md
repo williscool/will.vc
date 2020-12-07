@@ -2,7 +2,7 @@
 templateKey: home-page
 headerImage:
   image: /img/fb.jpg
-  imageAlt: That boi Will
+  imageAlt: That boi will
 title: |-
   # Hi, I'm William Harris
 
@@ -31,12 +31,8 @@ callToActions:
     linkURL: 'mailto:me@will.vc'
     subHeading: Shoot me an email. Because why not?
 seo:
-  browserTitle: >-
-    The Personal Website of William Harris Software Engineer Advisor
-    Extraordinaire
-  description: >-
-    The Personal Website of William Harris Software Engineer and Advisor
-    Extraordinaire
+  browserTitle: William Harris - Tech Advisor and Software Engineer Extraordinaire
+  description: William Harris - Tech Advisor and Software Engineer Extraordinaire
   keywords: >-
     software engineering, tech, startups, silicon valley, web, mobile,
     application, development, investor, 
