@@ -6,8 +6,6 @@ headerImage:
 title: |-
   # Hi, I'm William Harris
 
-  ex-Linkedin
-
   I do software things and such.  More below [⤵️](#home-main)
 homeMainContent: |-
   ## About Me
@@ -16,7 +14,7 @@ homeMainContent: |-
 
   Have shipped web and mobile apps for everything\
   from small clients as a freelancer ...\
-  to top tier Silicon Valley Startups and Giants
+  to top tier Silicon Valley Startups and Giants (ex-Linkedin)
 callToActions:
   firstCTA:
     heading: Visit my LinkedIn
