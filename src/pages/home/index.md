@@ -7,7 +7,7 @@ title: |-
   # Hi, I'm William Harris
 
   I do software things and such.  More below [⤵️](#home-main)
-homeMainContent: "## About Me\n\n### ex Silicon Valley software engineer and tech advisor\n\nHave shipped web and mobile apps for everything\\\nfrom small 2 person team customers as a freelancer ...\\\nto top tier Silicon Valley Startups and Giants (ex-[Linkedin](https://www.linkedin.com/))\n\nI'm a product engineer \U0001F468\U0001F3FF‍\U0001F52C.\n\nI love working with the other roles at a company (i.e. product, biz dev, sales, etc.) \\\nto figure out how to turn what a team want to do for customers and the business\n\ninto code \U0001F4BB.\n\nThen shepherd that into production and manage the ROI lifecycle."
+homeMainContent: "## About Me\n\n### ex Silicon Valley software engineer and tech advisor\n\nHave shipped web and mobile apps for everything\\\nfrom small 2 person team customers as a freelancer ...\\\nto top tier Silicon Valley Startups and Giants (ex-[Linkedin](https://www.linkedin.com/))\n\nI'm a product engineer \U0001F468\U0001F3FF‍\U0001F52C.\n\nI love working with all of the roles at a company (i.e. product, biz dev, sales, etc.) \\\nto figure out how to turn what a team wants to do for customers and the business\n\ninto code \U0001F4BB.\n\nThen shepherd that into production and manage the ROI lifecycle."
 callToActions:
   firstCTA:
     heading: Visit my LinkedIn
