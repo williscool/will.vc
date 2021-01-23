@@ -6,7 +6,7 @@ menuItems:
     linkURL: /
   - label: blog
     linkType: external
-    linkURL: 'https://medium.com/@thatboiwill'
+    linkURL: 'https://boujeehacker.substack.com'
   - label: contact
     linkType: external
     linkURL: 'mailto:wharris@upscalews.com'
