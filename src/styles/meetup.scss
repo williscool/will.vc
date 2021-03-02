@@ -38,8 +38,10 @@
   }
 
   .main-content-header-title {
-    text-align: center;
-    p {
+    h3:first-child {
+      margin-top: 0px;
+    }
+    h3, p {
       margin-top: 16px;
     }
   }
