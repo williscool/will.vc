@@ -1,16 +1,10 @@
 @import "./variables.scss";
 @import "./mixins.scss";
 
-.upcomingMeetup {
-  display: flex;
-}
-
 .pastMeetups {
   
   &-container {
     padding: $section-padding-mobile 20px;
-    display: flex;
-    flex-direction: column;
     margin-bottom: -40px;
 
     @include respond-to("medium") {
@@ -21,7 +15,6 @@
   &-title, h2 {
     @include xlarge-font();
     @include title-link-border();
-    margin: 20px 8rem 20px 8rem;
     text-align: center;
     align-self: center;
 
