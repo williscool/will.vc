@@ -5,6 +5,7 @@
   
   &-container {
     padding: $section-padding-mobile 20px;
+    flex-direction: column;
     margin-bottom: -40px;
 
     @include respond-to("medium") {
@@ -19,7 +20,7 @@
     align-self: center;
 
     @include respond-to("medium") {
-      margin: 0 10rem 40px 10rem;
+      margin: 20px 10rem 40px 10rem;
     }
   }
 
