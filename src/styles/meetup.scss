@@ -17,7 +17,7 @@
   &-title, h2 {
     @include xlarge-font();
     @include title-link-border();
-    margin-bottom: 0 8rem 20px 8rem;
+    margin: 20px 8rem 20px 8rem;
     text-align: center;
     align-self: center;
 
@@ -47,8 +47,8 @@
     
     ul {
       list-style: initial;
-      margin: auto;
-      padding: auto;
+      margin: revert;
+      padding: revert;
     }
   }
 }
