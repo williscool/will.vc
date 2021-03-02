@@ -1,6 +1,10 @@
 @import "./variables.scss";
 @import "./mixins.scss";
 
+.upcomingMeetup {
+  display: flex;
+}
+
 .pastMeetups {
   
   &-container {
