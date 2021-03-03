@@ -65,6 +65,18 @@ export const HomePageTemplate = ({ home, upcomingMeetup = null }) => {
                   />
                 </a>
               </span>
+              <span>
+                <a
+                  href="https://angel.co/u/william-harris-1"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img width={32} height={32}
+                    src="/img/angelist.svg"
+                    alt="angellist"
+                  />
+                </a>
+              </span>
             </div>
 
           </div>
