@@ -5,7 +5,6 @@
   
   &-container {
     padding: $section-padding-mobile 20px;
-    flex-direction: column;
     margin-bottom: -40px;
 
     @include respond-to("medium") {
@@ -19,9 +18,7 @@
     text-align: center;
     align-self: center;
 
-    @include respond-to("medium") {
-      margin: 20px 10rem 40px 10rem;
-    }
+    margin-top: 20px;
   }
 
   &-description {
@@ -47,6 +44,7 @@
       list-style: initial;
       margin: revert;
       padding: revert;
+      margin-bottom: 0px;
     }
   }
 }
