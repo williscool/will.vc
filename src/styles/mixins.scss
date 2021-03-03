@@ -26,12 +26,12 @@ $breakpoints: (
   font-weight: 300;
   font-size: 0.9rem;
   letter-spacing: 0.4px;
-  line-height: 1.4rem;
+  line-height: 2.4rem;
 
   @include respond-to("small") {
     font-size: 1rem;
     letter-spacing: 0.5px;
-    line-height: 1.5rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -39,12 +39,12 @@ $breakpoints: (
   font-weight: 300;
   font-size: 1rem;
   letter-spacing: 0.5px;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
 
   @include respond-to("small") {
     font-size: 1.25rem;
     letter-spacing: 1px;
-    line-height: 1.75rem;
+    line-height: 2.75rem;
   }
 }
 
