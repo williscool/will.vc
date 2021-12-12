@@ -19,7 +19,7 @@ callToActions:
   secondCTA:
     heading: Contact me
     linkType: external
-    linkURL: 'mailto:me@will.vc'
+    linkURL: 'mailto:wharris@upscalews.com'
     subHeading: Shoot me an email. Because why not?
 seo:
   browserTitle: William Harris - Tech Advisor and Software Engineer Extraordinaire
